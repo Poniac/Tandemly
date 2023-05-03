@@ -23,33 +23,5 @@ closeIcon.addEventListener("click", () => {
   mobileMenuContainer.classList.remove("active");
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-var date = new Date ().getFullYear();
+const date = new Date ().getFullYear();
 document.getElementById("year").innerHTML = date;
